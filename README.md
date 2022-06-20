@@ -29,7 +29,7 @@ From the above images, we can see that globally, the variance across all lots wa
 ### Across All Lots
 ![Global T-Test](Images/Global_ttest.png)
 
-Here, we performed a t-test across all manufacturing lots in an attempt to reject our null hypothesis that there is no significant statistical difference between the PSI across all lots and the population mean. The test across all lots was 0.069, which is above our significant threshold of 0.05, which does not provide enough evidence for us to reject the null hypothesis.
+Here, we performed a t-test across all manufacturing lots in an attempt to reject our null hypothesis that there is no significant statistical difference between the PSI across all lots and the population mean. The test across all lots was 0.38, which is above our significant threshold of 0.05, which does not provide enough evidence for us to reject the null hypothesis.
 
 ### Lot 1
 ![Lot 1](Images/lot1_ttest.png)
@@ -39,12 +39,12 @@ Similarly, when we ran a t-test for just samples from Lot 1, we get a p value fa
 ### Lot 2
 ![Lot 2](Images/lot2_ttest.png)
 
-Like we did for Lot 1, we also ran a t-test for samples from Lot 2 and arrived at a p-value of 0.083 (see image above). This is larger than our significance level of 0.05 and thus we cannot reject our null hypothesis from this data alone.
+Like we did for Lot 1, we also ran a t-test for samples from Lot 2 and arrived at a p-value of 0.037 (see image above). This is also smaller than our significance level of 0.05 and thus we can reject our null hypothesis from this data as well.
 
 ### Lot 3
 ![Lot 3](Images/lot3_ttest.png)
 
-Similarly, when a t-test was run for just samples across Lot 3, we see a p-value result of 0.28 (rounded, from image above). Like Lot 2, we do not have enough evidence to reject our null hypothesis.
+Similarly, when a t-test was run for just samples across Lot 3, we see a p-value result of 0.17 (rounded, from image above). Unlike Lots 1 & 2, we do not have enough evidence to reject our null hypothesis.
 
 ## Study Design: MechaCar vs Competition
 
